@@ -1,5 +1,5 @@
 // Connect to the WebSocket server
-const ws = new WebSocket('wss://your-vercel-backend.vercel.app'); // Replace with your WebSocket server URL
+const ws = new WebSocket('https://chatbackend-gray.vercel.app/'); // Replace with your WebSocket server URL
 
 const messageContainer = document.getElementById('message-container');
 const messageInput = document.getElementById('message-input');
